@@ -1,0 +1,7 @@
+checking_status,duration,credit_history,purpose,credit_amount,savings_status,employment,installment_commitment,personal_status,other_parties,residence_since,property_magnitude,age,other_payment_plans,housing,existing_credits,job,num_dependents,own_telephone,foreign_worker,class
+<0,9.0,critical/other existing credit,repairs,1288.0,100<=X<500,>=7,3.0,male single,guarantor,4.0,real estate,48.0,none,own,2.0,skilled,2.0,none,no,good
+0<=X<200,27.0,existing paid,business,3915.0,<100,1<=X<4,4.0,male single,none,2.0,car,36.0,none,own,1.0,skilled,2.0,yes,yes,bad
+no checking,10.0,existing paid,new car,1364.0,<100,1<=X<4,2.0,female div/dep/mar,none,4.0,car,64.0,none,own,1.0,skilled,1.0,yes,yes,good
+0<=X<200,48.0,existing paid,radio/tv,5951.0,<100,1<=X<4,2.0,female div/dep/mar,none,2.0,real estate,22.0,none,own,1.0,skilled,1.0,none,yes,bad
+<0,42.0,existing paid,furniture/equipment,7882.0,<100,4<=X<7,2.0,male single,guarantor,4.0,life insurance,45.0,none,for free,1.0,skilled,2.0,none,yes,good
+no checking,36.0,critical/other existing credit,radio/tv,9566.0,<100,1<=X<4,2.0,female div/dep/mar,none,2.0,car,31.0,stores,own,2.0,skilled,1.0,none,yes,good

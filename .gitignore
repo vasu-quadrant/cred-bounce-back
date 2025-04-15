@@ -1,0 +1,36 @@
+/backend/__pycache__
+/backend/models
+/backend/notebooks
+/scripts/__pycache__
+/scripts/preprocess.py 
+model1.pkl
+
+
+/front_end/node_modules
+
+structure.txt
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/front_end/node_modules
+/front_end/.pnp
+/front_end/.pnp.js
+
+# testing
+/front_end/coverage
+
+# production
+/front_end/build
+
+# misc
+/front_end/.DS_Store
+/front_end/.env.local
+/front_end/.env.development.local
+/front_end/.env.test.local
+/front_end/.env.production.local
+
+/front_end/npm-debug.log*
+/front_end/yarn-debug.log*
+/front_end/yarn-error.log*
