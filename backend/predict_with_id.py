@@ -19,7 +19,7 @@ def predict_with_ID(customerID , model, preprocessor):# ENDPOINT_NAME):
     """
         Function to process a CSV file with Customer ID and return Category.
     """
-
+    print(f'{PREFIX}/raw/raw_data1.csv')
     s3_response = s3_client.get_object(Bucket=BUCKET_NAME, Key=f'{PREFIX}/raw/raw_data1.csv')
     print("Fetched from s3")
 
@@ -29,22 +29,22 @@ def predict_with_ID(customerID , model, preprocessor):# ENDPOINT_NAME):
     print("Call preproessing - ", customer_values.shape)
 
 
-    response = s3_client.get_object(
-                Bucket = BUCKET_NAME,
-                Key = F"{PREFIX}/packages/preprocessing_objects.pkl"
-            )
-    preprocessing_objects_from_s3 = pickle.loads(response["Body"].read())
+    # response = s3_client.get_object(
+    #             Bucket = BUCKET_NAME,
+    #             Key = F"{PREFIX}/packages/preprocessing_objects.pkl"
+    #         )
+    # preprocessing_objects_from_s3 = pickle.loads(response["Body"].read())
 
     # preprocessed_data = preprocess(customer_values)
-    print(type(preprocessing_objects_from_s3))
-    print(preprocessing_objects_from_s3)
-    print("Predictions: ", preprocessing_objects_from_s3["preprocessor"])
+    # print(type(preprocessing_objects_from_s3))
+    # print(preprocessing_objects_from_s3)
+    # print("Predictions: ", preprocessing_objects_from_s3["preprocessor"])
     # preprocessed_data = apply_preprocessing(customer_values, preprocessing_objects_from_s3)
 
     # ================================
     preprocessed_data = apply_preprocessing(customer_values, preprocessor)
     # ================================
-    print(preprocessed_data.shape)
+    print(preprocessed_data.shape, preprocessed_data.columns)
 
     # body = (preprocessed_data.iloc[:, 1:]).to_csv(index=False, header=False)
     # body = body.encode("utf-8")

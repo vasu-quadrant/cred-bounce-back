@@ -6,7 +6,7 @@ from predict_with_file import predict_with_file
 from predict_with_id import predict_with_ID
 import joblib
  
-app = FastAPI(title="Cred Prediction API")
+app = FastAPI(title="Cred Bounce Back Prediction")
  
 # Add CORS middleware to allow requests from the React frontend
 app.add_middleware(

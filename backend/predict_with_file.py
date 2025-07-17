@@ -51,11 +51,11 @@ async def predict_with_file(file: UploadFile, model, preprocessor):#ENDPOINT_NAM
         # Read and preprocess the data
         raw_data = pd.read_csv(temp_file_path)
         print("Raw Data")
-        response = s3_client.get_object(
-                Bucket = BUCKET_NAME,
-                Key = F"{PREFIX}/packages/preprocessing_objects.pkl"
-            )
-        preprocessing_objects_from_s3 = pickle.loads(response["Body"].read())
+        # response = s3_client.get_object(
+        #         Bucket = BUCKET_NAME,
+        #         Key = F"{PREFIX}/packages/preprocessing_objects.pkl"
+        #     )
+        # preprocessing_objects_from_s3 = pickle.loads(response["Body"].read())
         print("Preproccessing..")
         # preprocessed_data = preprocess(raw_data)
         # preprocessed_data = apply_preprocessing(raw_data, preprocessing_objects_from_s3)
@@ -64,7 +64,7 @@ async def predict_with_file(file: UploadFile, model, preprocessor):#ENDPOINT_NAM
         preprocessed_data = apply_preprocessing(raw_data, preprocessor)
         # ===========================
 
-        print(preprocessed_data.shape)
+        print(preprocessed_data.shape, preprocessed_data.columns)
 
         print("Preproccesing done")
         # body = (preprocessed_data.iloc[:, 1:]).to_csv(index=False, header=False)

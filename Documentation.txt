@@ -1,0 +1,8 @@
+Run frontend:
+    cd frontend
+    npm i
+    npm run start
+
+Run Backend:
+    cd backend
+    python main.py

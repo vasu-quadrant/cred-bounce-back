@@ -1,0 +1,2101 @@
+
+
+Result with 31 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age', 'purpose_used_car', 'purpose_new_car', 'credit_job_ratio',
+       'housing_own', 'property_magnitude_no_known_property',
+       'residence_since', 'debt_burden', 'property_magnitude_real_estate',
+       'marital_status_div_dep_mar', 'savings_status_no_known_savings',
+       'other_payment_plans_bank', 'checking_status_0__X_200',
+       'installment_commitment', 'employment_4__X_7', 'housing_rent',
+       'employment__1', 'existing_credits', 'job', 'num_dependents',
+       'purpose_education', 'credit_history_no_credits_all_paid'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8742857142857143,
+            "test data": 0.7633333333333333
+        },
+        "Precision Score": {
+            "train data": 0.8681318681318682,
+            "test data": 0.7860082304526749
+        },
+        "Recall Score": {
+            "train data": 0.9673469387755103,
+            "test data": 0.9095238095238095
+        },
+        "F1 Score": {
+            "train data": 0.915057915057915,
+            "test data": 0.8432671081677704
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.66      0.76       210
+         1.0       0.87      0.97      0.92       490
+
+    accuracy                           0.87       700
+   macro avg       0.88      0.81      0.84       700
+weighted avg       0.88      0.87      0.87       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.67      0.42      0.52        90
+         1.0       0.79      0.91      0.84       210
+
+    accuracy                           0.76       300
+   macro avg       0.73      0.67      0.68       300
+weighted avg       0.75      0.76      0.75       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 30 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age', 'purpose_used_car', 'purpose_new_car', 'credit_job_ratio',
+       'housing_own', 'property_magnitude_no_known_property',
+       'residence_since', 'debt_burden', 'property_magnitude_real_estate',
+       'marital_status_div_dep_mar', 'savings_status_no_known_savings',
+       'other_payment_plans_bank', 'checking_status_0__X_200',
+       'installment_commitment', 'employment_4__X_7', 'housing_rent',
+       'employment__1', 'existing_credits', 'job', 'num_dependents',
+       'purpose_education'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8714285714285714,
+            "test data": 0.75
+        },
+        "Precision Score": {
+            "train data": 0.8663003663003663,
+            "test data": 0.7800829875518672
+        },
+        "Recall Score": {
+            "train data": 0.9653061224489796,
+            "test data": 0.8952380952380953
+        },
+        "F1 Score": {
+            "train data": 0.9131274131274131,
+            "test data": 0.8337028824833703
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.89      0.65      0.75       210
+         1.0       0.87      0.97      0.91       490
+
+    accuracy                           0.87       700
+   macro avg       0.88      0.81      0.83       700
+weighted avg       0.87      0.87      0.87       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.63      0.41      0.50        90
+         1.0       0.78      0.90      0.83       210
+
+    accuracy                           0.75       300
+   macro avg       0.70      0.65      0.67       300
+weighted avg       0.73      0.75      0.73       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 29 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age', 'purpose_used_car', 'purpose_new_car', 'credit_job_ratio',
+       'housing_own', 'property_magnitude_no_known_property',
+       'residence_since', 'debt_burden', 'property_magnitude_real_estate',
+       'marital_status_div_dep_mar', 'savings_status_no_known_savings',
+       'other_payment_plans_bank', 'checking_status_0__X_200',
+       'installment_commitment', 'employment_4__X_7', 'housing_rent',
+       'employment__1', 'existing_credits', 'job', 'num_dependents'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8757142857142857,
+            "test data": 0.75
+        },
+        "Precision Score": {
+            "train data": 0.8697247706422019,
+            "test data": 0.7777777777777778
+        },
+        "Recall Score": {
+            "train data": 0.9673469387755103,
+            "test data": 0.9
+        },
+        "F1 Score": {
+            "train data": 0.9159420289855073,
+            "test data": 0.8344370860927153
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.66      0.76       210
+         1.0       0.87      0.97      0.92       490
+
+    accuracy                           0.88       700
+   macro avg       0.88      0.81      0.84       700
+weighted avg       0.88      0.88      0.87       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.63      0.40      0.49        90
+         1.0       0.78      0.90      0.83       210
+
+    accuracy                           0.75       300
+   macro avg       0.70      0.65      0.66       300
+weighted avg       0.73      0.75      0.73       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 28 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age', 'purpose_used_car', 'purpose_new_car', 'credit_job_ratio',
+       'housing_own', 'property_magnitude_no_known_property',
+       'residence_since', 'debt_burden', 'property_magnitude_real_estate',
+       'marital_status_div_dep_mar', 'savings_status_no_known_savings',
+       'other_payment_plans_bank', 'checking_status_0__X_200',
+       'installment_commitment', 'employment_4__X_7', 'housing_rent',
+       'employment__1', 'existing_credits', 'job'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8742857142857143,
+            "test data": 0.7566666666666667
+        },
+        "Precision Score": {
+            "train data": 0.8681318681318682,
+            "test data": 0.7795918367346939
+        },
+        "Recall Score": {
+            "train data": 0.9673469387755103,
+            "test data": 0.9095238095238095
+        },
+        "F1 Score": {
+            "train data": 0.915057915057915,
+            "test data": 0.8395604395604396
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.66      0.76       210
+         1.0       0.87      0.97      0.92       490
+
+    accuracy                           0.87       700
+   macro avg       0.88      0.81      0.84       700
+weighted avg       0.88      0.87      0.87       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.65      0.40      0.50        90
+         1.0       0.78      0.91      0.84       210
+
+    accuracy                           0.76       300
+   macro avg       0.72      0.65      0.67       300
+weighted avg       0.74      0.76      0.74       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 27 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age', 'purpose_used_car', 'purpose_new_car', 'credit_job_ratio',
+       'housing_own', 'property_magnitude_no_known_property',
+       'residence_since', 'debt_burden', 'property_magnitude_real_estate',
+       'marital_status_div_dep_mar', 'savings_status_no_known_savings',
+       'other_payment_plans_bank', 'checking_status_0__X_200',
+       'installment_commitment', 'employment_4__X_7', 'housing_rent',
+       'employment__1', 'existing_credits'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8728571428571429,
+            "test data": 0.7633333333333333
+        },
+        "Precision Score": {
+            "train data": 0.8678899082568807,
+            "test data": 0.7860082304526749
+        },
+        "Recall Score": {
+            "train data": 0.9653061224489796,
+            "test data": 0.9095238095238095
+        },
+        "F1 Score": {
+            "train data": 0.9140096618357488,
+            "test data": 0.8432671081677704
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.89      0.66      0.76       210
+         1.0       0.87      0.97      0.91       490
+
+    accuracy                           0.87       700
+   macro avg       0.88      0.81      0.84       700
+weighted avg       0.87      0.87      0.87       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.67      0.42      0.52        90
+         1.0       0.79      0.91      0.84       210
+
+    accuracy                           0.76       300
+   macro avg       0.73      0.67      0.68       300
+weighted avg       0.75      0.76      0.75       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 26 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age', 'purpose_used_car', 'purpose_new_car', 'credit_job_ratio',
+       'housing_own', 'property_magnitude_no_known_property',
+       'residence_since', 'debt_burden', 'property_magnitude_real_estate',
+       'marital_status_div_dep_mar', 'savings_status_no_known_savings',
+       'other_payment_plans_bank', 'checking_status_0__X_200',
+       'installment_commitment', 'employment_4__X_7', 'housing_rent',
+       'employment__1'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8785714285714286,
+            "test data": 0.76
+        },
+        "Precision Score": {
+            "train data": 0.8715596330275229,
+            "test data": 0.7827868852459017
+        },
+        "Recall Score": {
+            "train data": 0.9693877551020408,
+            "test data": 0.9095238095238095
+        },
+        "F1 Score": {
+            "train data": 0.9178743961352657,
+            "test data": 0.8414096916299559
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.67      0.77       210
+         1.0       0.87      0.97      0.92       490
+
+    accuracy                           0.88       700
+   macro avg       0.89      0.82      0.84       700
+weighted avg       0.88      0.88      0.87       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.66      0.41      0.51        90
+         1.0       0.78      0.91      0.84       210
+
+    accuracy                           0.76       300
+   macro avg       0.72      0.66      0.67       300
+weighted avg       0.75      0.76      0.74       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 25 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age', 'purpose_used_car', 'purpose_new_car', 'credit_job_ratio',
+       'housing_own', 'property_magnitude_no_known_property',
+       'residence_since', 'debt_burden', 'property_magnitude_real_estate',
+       'marital_status_div_dep_mar', 'savings_status_no_known_savings',
+       'other_payment_plans_bank', 'checking_status_0__X_200',
+       'installment_commitment', 'employment_4__X_7', 'housing_rent'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8771428571428571,
+            "test data": 0.76
+        },
+        "Precision Score": {
+            "train data": 0.8726937269372693,
+            "test data": 0.7851239669421488
+        },
+        "Recall Score": {
+            "train data": 0.9653061224489796,
+            "test data": 0.9047619047619048
+        },
+        "F1 Score": {
+            "train data": 0.9166666666666666,
+            "test data": 0.8407079646017699
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.89      0.67      0.77       210
+         1.0       0.87      0.97      0.92       490
+
+    accuracy                           0.88       700
+   macro avg       0.88      0.82      0.84       700
+weighted avg       0.88      0.88      0.87       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.66      0.42      0.51        90
+         1.0       0.79      0.90      0.84       210
+
+    accuracy                           0.76       300
+   macro avg       0.72      0.66      0.68       300
+weighted avg       0.75      0.76      0.74       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 24 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age', 'purpose_used_car', 'purpose_new_car', 'credit_job_ratio',
+       'housing_own', 'property_magnitude_no_known_property',
+       'residence_since', 'debt_burden', 'property_magnitude_real_estate',
+       'marital_status_div_dep_mar', 'savings_status_no_known_savings',
+       'other_payment_plans_bank', 'checking_status_0__X_200',
+       'installment_commitment', 'employment_4__X_7'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8785714285714286,
+            "test data": 0.7633333333333333
+        },
+        "Precision Score": {
+            "train data": 0.8743068391866913,
+            "test data": 0.7836734693877551
+        },
+        "Recall Score": {
+            "train data": 0.9653061224489796,
+            "test data": 0.9142857142857143
+        },
+        "F1 Score": {
+            "train data": 0.9175557710960233,
+            "test data": 0.843956043956044
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.89      0.68      0.77       210
+         1.0       0.87      0.97      0.92       490
+
+    accuracy                           0.88       700
+   macro avg       0.88      0.82      0.84       700
+weighted avg       0.88      0.88      0.87       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.67      0.41      0.51        90
+         1.0       0.78      0.91      0.84       210
+
+    accuracy                           0.76       300
+   macro avg       0.73      0.66      0.68       300
+weighted avg       0.75      0.76      0.74       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 23 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age', 'purpose_used_car', 'purpose_new_car', 'credit_job_ratio',
+       'housing_own', 'property_magnitude_no_known_property',
+       'residence_since', 'debt_burden', 'property_magnitude_real_estate',
+       'marital_status_div_dep_mar', 'savings_status_no_known_savings',
+       'other_payment_plans_bank', 'checking_status_0__X_200',
+       'installment_commitment'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.87,
+            "test data": 0.75
+        },
+        "Precision Score": {
+            "train data": 0.8715083798882681,
+            "test data": 0.7755102040816326
+        },
+        "Recall Score": {
+            "train data": 0.9551020408163265,
+            "test data": 0.9047619047619048
+        },
+        "F1 Score": {
+            "train data": 0.9113924050632911,
+            "test data": 0.8351648351648352
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.87      0.67      0.76       210
+         1.0       0.87      0.96      0.91       490
+
+    accuracy                           0.87       700
+   macro avg       0.87      0.81      0.83       700
+weighted avg       0.87      0.87      0.86       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.64      0.39      0.48        90
+         1.0       0.78      0.90      0.84       210
+
+    accuracy                           0.75       300
+   macro avg       0.71      0.65      0.66       300
+weighted avg       0.73      0.75      0.73       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 22 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age', 'purpose_used_car', 'purpose_new_car', 'credit_job_ratio',
+       'housing_own', 'property_magnitude_no_known_property',
+       'residence_since', 'debt_burden', 'property_magnitude_real_estate',
+       'marital_status_div_dep_mar', 'savings_status_no_known_savings',
+       'other_payment_plans_bank', 'checking_status_0__X_200'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8685714285714285,
+            "test data": 0.7533333333333333
+        },
+        "Precision Score": {
+            "train data": 0.8685185185185185,
+            "test data": 0.7833333333333333
+        },
+        "Recall Score": {
+            "train data": 0.9571428571428572,
+            "test data": 0.8952380952380953
+        },
+        "F1 Score": {
+            "train data": 0.9106796116504854,
+            "test data": 0.8355555555555556
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.87      0.66      0.75       210
+         1.0       0.87      0.96      0.91       490
+
+    accuracy                           0.87       700
+   macro avg       0.87      0.81      0.83       700
+weighted avg       0.87      0.87      0.86       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.63      0.42      0.51        90
+         1.0       0.78      0.90      0.84       210
+
+    accuracy                           0.75       300
+   macro avg       0.71      0.66      0.67       300
+weighted avg       0.74      0.75      0.74       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 21 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age', 'purpose_used_car', 'purpose_new_car', 'credit_job_ratio',
+       'housing_own', 'property_magnitude_no_known_property',
+       'residence_since', 'debt_burden', 'property_magnitude_real_estate',
+       'marital_status_div_dep_mar', 'savings_status_no_known_savings',
+       'other_payment_plans_bank'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8685714285714285,
+            "test data": 0.7366666666666667
+        },
+        "Precision Score": {
+            "train data": 0.8685185185185185,
+            "test data": 0.7673469387755102
+        },
+        "Recall Score": {
+            "train data": 0.9571428571428572,
+            "test data": 0.8952380952380953
+        },
+        "F1 Score": {
+            "train data": 0.9106796116504854,
+            "test data": 0.8263736263736263
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.87      0.66      0.75       210
+         1.0       0.87      0.96      0.91       490
+
+    accuracy                           0.87       700
+   macro avg       0.87      0.81      0.83       700
+weighted avg       0.87      0.87      0.86       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.37      0.46        90
+         1.0       0.77      0.90      0.83       210
+
+    accuracy                           0.74       300
+   macro avg       0.68      0.63      0.64       300
+weighted avg       0.72      0.74      0.72       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 20 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age', 'purpose_used_car', 'purpose_new_car', 'credit_job_ratio',
+       'housing_own', 'property_magnitude_no_known_property',
+       'residence_since', 'debt_burden', 'property_magnitude_real_estate',
+       'marital_status_div_dep_mar', 'savings_status_no_known_savings'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8728571428571429,
+            "test data": 0.7333333333333333
+        },
+        "Precision Score": {
+            "train data": 0.8692449355432781,
+            "test data": 0.7708333333333334
+        },
+        "Recall Score": {
+            "train data": 0.963265306122449,
+            "test data": 0.8809523809523809
+        },
+        "F1 Score": {
+            "train data": 0.9138431752178122,
+            "test data": 0.8222222222222222
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.89      0.66      0.76       210
+         1.0       0.87      0.96      0.91       490
+
+    accuracy                           0.87       700
+   macro avg       0.88      0.81      0.84       700
+weighted avg       0.87      0.87      0.87       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.39      0.47        90
+         1.0       0.77      0.88      0.82       210
+
+    accuracy                           0.73       300
+   macro avg       0.68      0.63      0.64       300
+weighted avg       0.71      0.73      0.72       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 19 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age', 'purpose_used_car', 'purpose_new_car', 'credit_job_ratio',
+       'housing_own', 'property_magnitude_no_known_property',
+       'residence_since', 'debt_burden', 'property_magnitude_real_estate',
+       'marital_status_div_dep_mar'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8685714285714285,
+            "test data": 0.7433333333333333
+        },
+        "Precision Score": {
+            "train data": 0.8726591760299626,
+            "test data": 0.7736625514403292
+        },
+        "Recall Score": {
+            "train data": 0.9510204081632653,
+            "test data": 0.8952380952380953
+        },
+        "F1 Score": {
+            "train data": 0.91015625,
+            "test data": 0.8300220750551877
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.86      0.68      0.76       210
+         1.0       0.87      0.95      0.91       490
+
+    accuracy                           0.87       700
+   macro avg       0.86      0.81      0.83       700
+weighted avg       0.87      0.87      0.86       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.39      0.48        90
+         1.0       0.77      0.90      0.83       210
+
+    accuracy                           0.74       300
+   macro avg       0.69      0.64      0.65       300
+weighted avg       0.73      0.74      0.72       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 18 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age', 'purpose_used_car', 'purpose_new_car', 'credit_job_ratio',
+       'housing_own', 'property_magnitude_no_known_property',
+       'residence_since', 'debt_burden', 'property_magnitude_real_estate'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.86,
+            "test data": 0.7433333333333333
+        },
+        "Precision Score": {
+            "train data": 0.8670411985018727,
+            "test data": 0.7736625514403292
+        },
+        "Recall Score": {
+            "train data": 0.9448979591836735,
+            "test data": 0.8952380952380953
+        },
+        "F1 Score": {
+            "train data": 0.904296875,
+            "test data": 0.8300220750551877
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.84      0.66      0.74       210
+         1.0       0.87      0.94      0.90       490
+
+    accuracy                           0.86       700
+   macro avg       0.85      0.80      0.82       700
+weighted avg       0.86      0.86      0.85       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.39      0.48        90
+         1.0       0.77      0.90      0.83       210
+
+    accuracy                           0.74       300
+   macro avg       0.69      0.64      0.65       300
+weighted avg       0.73      0.74      0.72       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 17 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age', 'purpose_used_car', 'purpose_new_car', 'credit_job_ratio',
+       'housing_own', 'property_magnitude_no_known_property',
+       'residence_since', 'debt_burden'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8585714285714285,
+            "test data": 0.7333333333333333
+        },
+        "Precision Score": {
+            "train data": 0.8613678373382625,
+            "test data": 0.768595041322314
+        },
+        "Recall Score": {
+            "train data": 0.9510204081632653,
+            "test data": 0.8857142857142857
+        },
+        "F1 Score": {
+            "train data": 0.903976721629486,
+            "test data": 0.8230088495575221
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.85      0.64      0.73       210
+         1.0       0.86      0.95      0.90       490
+
+    accuracy                           0.86       700
+   macro avg       0.86      0.80      0.82       700
+weighted avg       0.86      0.86      0.85       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.38      0.46        90
+         1.0       0.77      0.89      0.82       210
+
+    accuracy                           0.73       300
+   macro avg       0.68      0.63      0.64       300
+weighted avg       0.71      0.73      0.71       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 16 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age', 'purpose_used_car', 'purpose_new_car', 'credit_job_ratio',
+       'housing_own', 'property_magnitude_no_known_property',
+       'residence_since'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8728571428571429,
+            "test data": 0.74
+        },
+        "Precision Score": {
+            "train data": 0.8719851576994434,
+            "test data": 0.775
+        },
+        "Recall Score": {
+            "train data": 0.9591836734693877,
+            "test data": 0.8857142857142857
+        },
+        "F1 Score": {
+            "train data": 0.9135082604470359,
+            "test data": 0.8266666666666667
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.88      0.67      0.76       210
+         1.0       0.87      0.96      0.91       490
+
+    accuracy                           0.87       700
+   macro avg       0.87      0.82      0.84       700
+weighted avg       0.87      0.87      0.87       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.40      0.48        90
+         1.0       0.78      0.89      0.83       210
+
+    accuracy                           0.74       300
+   macro avg       0.69      0.64      0.65       300
+weighted avg       0.72      0.74      0.72       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 15 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age', 'purpose_used_car', 'purpose_new_car', 'credit_job_ratio',
+       'housing_own', 'property_magnitude_no_known_property'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8585714285714285,
+            "test data": 0.7433333333333333
+        },
+        "Precision Score": {
+            "train data": 0.8640595903165735,
+            "test data": 0.7782426778242678
+        },
+        "Recall Score": {
+            "train data": 0.9469387755102041,
+            "test data": 0.8857142857142857
+        },
+        "F1 Score": {
+            "train data": 0.9036027263875365,
+            "test data": 0.8285077951002228
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.84      0.65      0.73       210
+         1.0       0.86      0.95      0.90       490
+
+    accuracy                           0.86       700
+   macro avg       0.85      0.80      0.82       700
+weighted avg       0.86      0.86      0.85       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.41      0.49        90
+         1.0       0.78      0.89      0.83       210
+
+    accuracy                           0.74       300
+   macro avg       0.69      0.65      0.66       300
+weighted avg       0.73      0.74      0.73       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 14 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age', 'purpose_used_car', 'purpose_new_car', 'credit_job_ratio',
+       'housing_own'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8585714285714285,
+            "test data": 0.7366666666666667
+        },
+        "Precision Score": {
+            "train data": 0.862708719851577,
+            "test data": 0.7763713080168776
+        },
+        "Recall Score": {
+            "train data": 0.9489795918367347,
+            "test data": 0.8761904761904762
+        },
+        "F1 Score": {
+            "train data": 0.9037900874635568,
+            "test data": 0.8232662192393736
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.84      0.65      0.73       210
+         1.0       0.86      0.95      0.90       490
+
+    accuracy                           0.86       700
+   macro avg       0.85      0.80      0.82       700
+weighted avg       0.86      0.86      0.85       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.41      0.48        90
+         1.0       0.78      0.88      0.82       210
+
+    accuracy                           0.74       300
+   macro avg       0.68      0.64      0.65       300
+weighted avg       0.72      0.74      0.72       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 13 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age', 'purpose_used_car', 'purpose_new_car', 'credit_job_ratio'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8542857142857143,
+            "test data": 0.74
+        },
+        "Precision Score": {
+            "train data": 0.8527272727272728,
+            "test data": 0.7682926829268293
+        },
+        "Recall Score": {
+            "train data": 0.9571428571428572,
+            "test data": 0.9
+        },
+        "F1 Score": {
+            "train data": 0.9019230769230769,
+            "test data": 0.8289473684210527
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.86      0.61      0.72       210
+         1.0       0.85      0.96      0.90       490
+
+    accuracy                           0.85       700
+   macro avg       0.86      0.79      0.81       700
+weighted avg       0.85      0.85      0.85       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.37      0.46        90
+         1.0       0.77      0.90      0.83       210
+
+    accuracy                           0.74       300
+   macro avg       0.69      0.63      0.64       300
+weighted avg       0.72      0.74      0.72       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 12 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age', 'purpose_used_car', 'purpose_new_car'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8528571428571429,
+            "test data": 0.7433333333333333
+        },
+        "Precision Score": {
+            "train data": 0.8524590163934426,
+            "test data": 0.7736625514403292
+        },
+        "Recall Score": {
+            "train data": 0.9551020408163265,
+            "test data": 0.8952380952380953
+        },
+        "F1 Score": {
+            "train data": 0.9008662175168431,
+            "test data": 0.8300220750551877
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.85      0.61      0.71       210
+         1.0       0.85      0.96      0.90       490
+
+    accuracy                           0.85       700
+   macro avg       0.85      0.78      0.81       700
+weighted avg       0.85      0.85      0.85       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.39      0.48        90
+         1.0       0.77      0.90      0.83       210
+
+    accuracy                           0.74       300
+   macro avg       0.69      0.64      0.65       300
+weighted avg       0.73      0.74      0.72       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 11 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age', 'purpose_used_car'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8542857142857143,
+            "test data": 0.7333333333333333
+        },
+        "Precision Score": {
+            "train data": 0.8553113553113553,
+            "test data": 0.7708333333333334
+        },
+        "Recall Score": {
+            "train data": 0.9530612244897959,
+            "test data": 0.8809523809523809
+        },
+        "F1 Score": {
+            "train data": 0.9015444015444015,
+            "test data": 0.8222222222222222
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.85      0.62      0.72       210
+         1.0       0.86      0.95      0.90       490
+
+    accuracy                           0.85       700
+   macro avg       0.85      0.79      0.81       700
+weighted avg       0.85      0.85      0.85       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.39      0.47        90
+         1.0       0.77      0.88      0.82       210
+
+    accuracy                           0.73       300
+   macro avg       0.68      0.63      0.64       300
+weighted avg       0.71      0.73      0.72       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 10 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount',
+       'age'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8485714285714285,
+            "test data": 0.7366666666666667
+        },
+        "Precision Score": {
+            "train data": 0.8490909090909091,
+            "test data": 0.7609561752988048
+        },
+        "Recall Score": {
+            "train data": 0.9530612244897959,
+            "test data": 0.9095238095238095
+        },
+        "F1 Score": {
+            "train data": 0.8980769230769231,
+            "test data": 0.8286334056399133
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.85      0.60      0.71       210
+         1.0       0.85      0.95      0.90       490
+
+    accuracy                           0.85       700
+   macro avg       0.85      0.78      0.80       700
+weighted avg       0.85      0.85      0.84       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.33      0.43        90
+         1.0       0.76      0.91      0.83       210
+
+    accuracy                           0.74       300
+   macro avg       0.69      0.62      0.63       300
+weighted avg       0.72      0.74      0.71       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 9 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv', 'credit_amount'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8414285714285714,
+            "test data": 0.7266666666666667
+        },
+        "Precision Score": {
+            "train data": 0.8426763110307414,
+            "test data": 0.7519685039370079
+        },
+        "Recall Score": {
+            "train data": 0.9510204081632653,
+            "test data": 0.9095238095238095
+        },
+        "F1 Score": {
+            "train data": 0.8935762224352828,
+            "test data": 0.8232758620689655
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.84      0.59      0.69       210
+         1.0       0.84      0.95      0.89       490
+
+    accuracy                           0.84       700
+   macro avg       0.84      0.77      0.79       700
+weighted avg       0.84      0.84      0.83       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.30      0.40        90
+         1.0       0.75      0.91      0.82       210
+
+    accuracy                           0.73       300
+   macro avg       0.67      0.60      0.61       300
+weighted avg       0.70      0.73      0.70       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 8 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration', 'purpose_radio_tv'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8314285714285714,
+            "test data": 0.74
+        },
+        "Precision Score": {
+            "train data": 0.8321428571428572,
+            "test data": 0.7598425196850394
+        },
+        "Recall Score": {
+            "train data": 0.9510204081632653,
+            "test data": 0.919047619047619
+        },
+        "F1 Score": {
+            "train data": 0.8876190476190476,
+            "test data": 0.8318965517241379
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.83      0.55      0.66       210
+         1.0       0.83      0.95      0.89       490
+
+    accuracy                           0.83       700
+   macro avg       0.83      0.75      0.78       700
+weighted avg       0.83      0.83      0.82       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.63      0.32      0.43        90
+         1.0       0.76      0.92      0.83       210
+
+    accuracy                           0.74       300
+   macro avg       0.70      0.62      0.63       300
+weighted avg       0.72      0.74      0.71       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 7 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100', 'duration'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8242857142857143,
+            "test data": 0.74
+        },
+        "Precision Score": {
+            "train data": 0.8259325044404974,
+            "test data": 0.7619047619047619
+        },
+        "Recall Score": {
+            "train data": 0.9489795918367347,
+            "test data": 0.9142857142857143
+        },
+        "F1 Score": {
+            "train data": 0.8831908831908832,
+            "test data": 0.8311688311688312
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.82      0.53      0.65       210
+         1.0       0.83      0.95      0.88       490
+
+    accuracy                           0.82       700
+   macro avg       0.82      0.74      0.76       700
+weighted avg       0.82      0.82      0.81       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.62      0.33      0.43        90
+         1.0       0.76      0.91      0.83       210
+
+    accuracy                           0.74       300
+   macro avg       0.69      0.62      0.63       300
+weighted avg       0.72      0.74      0.71       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 6 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0',
+       'savings_status__100'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8242857142857143,
+            "test data": 0.73
+        },
+        "Precision Score": {
+            "train data": 0.829443447037702,
+            "test data": 0.7549407114624506
+        },
+        "Recall Score": {
+            "train data": 0.9428571428571428,
+            "test data": 0.9095238095238095
+        },
+        "F1 Score": {
+            "train data": 0.8825214899713467,
+            "test data": 0.8250539956803455
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.80      0.55      0.65       210
+         1.0       0.83      0.94      0.88       490
+
+    accuracy                           0.82       700
+   macro avg       0.82      0.75      0.77       700
+weighted avg       0.82      0.82      0.81       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.31      0.41        90
+         1.0       0.75      0.91      0.83       210
+
+    accuracy                           0.73       300
+   macro avg       0.68      0.61      0.62       300
+weighted avg       0.71      0.73      0.70       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 5 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit', 'checking_status__0'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8228571428571428,
+            "test data": 0.73
+        },
+        "Precision Score": {
+            "train data": 0.824468085106383,
+            "test data": 0.7529411764705882
+        },
+        "Recall Score": {
+            "train data": 0.9489795918367347,
+            "test data": 0.9142857142857143
+        },
+        "F1 Score": {
+            "train data": 0.8823529411764706,
+            "test data": 0.8258064516129032
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.82      0.53      0.64       210
+         1.0       0.82      0.95      0.88       490
+
+    accuracy                           0.82       700
+   macro avg       0.82      0.74      0.76       700
+weighted avg       0.82      0.82      0.81       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.30      0.40        90
+         1.0       0.75      0.91      0.83       210
+
+    accuracy                           0.73       300
+   macro avg       0.68      0.61      0.61       300
+weighted avg       0.71      0.73      0.70       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 4 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio',
+       'credit_history_critical_other_existing_credit'],
+      dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8128571428571428,
+            "test data": 0.6833333333333333
+        },
+        "Precision Score": {
+            "train data": 0.8154657293497364,
+            "test data": 0.7272727272727273
+        },
+        "Recall Score": {
+            "train data": 0.9469387755102041,
+            "test data": 0.8761904761904762
+        },
+        "F1 Score": {
+            "train data": 0.8762983947119924,
+            "test data": 0.7948164146868251
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.80      0.50      0.62       210
+         1.0       0.82      0.95      0.88       490
+
+    accuracy                           0.81       700
+   macro avg       0.81      0.72      0.75       700
+weighted avg       0.81      0.81      0.80       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.45      0.23      0.31        90
+         1.0       0.73      0.88      0.79       210
+
+    accuracy                           0.68       300
+   macro avg       0.59      0.55      0.55       300
+weighted avg       0.64      0.68      0.65       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 3 features: Index(['checking_status_no_checking', 'monthly_burden', 'credit_age_ratio'], dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.81,
+            "test data": 0.7033333333333334
+        },
+        "Precision Score": {
+            "train data": 0.8181818181818182,
+            "test data": 0.7449392712550608
+        },
+        "Recall Score": {
+            "train data": 0.936734693877551,
+            "test data": 0.8761904761904762
+        },
+        "F1 Score": {
+            "train data": 0.873453853472883,
+            "test data": 0.8052516411378556
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.78      0.51      0.62       210
+         1.0       0.82      0.94      0.87       490
+
+    accuracy                           0.81       700
+   macro avg       0.80      0.73      0.75       700
+weighted avg       0.81      0.81      0.80       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.51      0.30      0.38        90
+         1.0       0.74      0.88      0.81       210
+
+    accuracy                           0.70       300
+   macro avg       0.63      0.59      0.59       300
+weighted avg       0.67      0.70      0.68       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 2 features: Index(['checking_status_no_checking', 'monthly_burden'], dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.7271428571428571,
+            "test data": 0.6933333333333334
+        },
+        "Precision Score": {
+            "train data": 0.7325038880248833,
+            "test data": 0.7137681159420289
+        },
+        "Recall Score": {
+            "train data": 0.9612244897959183,
+            "test data": 0.9380952380952381
+        },
+        "F1 Score": {
+            "train data": 0.8314210061782877,
+            "test data": 0.8106995884773662
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.67      0.18      0.28       210
+         1.0       0.73      0.96      0.83       490
+
+    accuracy                           0.73       700
+   macro avg       0.70      0.57      0.56       700
+weighted avg       0.71      0.73      0.67       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.46      0.12      0.19        90
+         1.0       0.71      0.94      0.81       210
+
+    accuracy                           0.69       300
+   macro avg       0.59      0.53      0.50       300
+weighted avg       0.64      0.69      0.63       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+
+
+
+Result with 1 features: Index(['checking_status_no_checking'], dtype='object')
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.7,
+            "test data": 0.7
+        },
+        "Precision Score": {
+            "train data": 0.7,
+            "test data": 0.7
+        },
+        "Recall Score": {
+            "train data": 1.0,
+            "test data": 1.0
+        },
+        "F1 Score": {
+            "train data": 0.8235294117647058,
+            "test data": 0.8235294117647058
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       210
+         1.0       0.70      1.00      0.82       490
+
+    accuracy                           0.70       700
+   macro avg       0.35      0.50      0.41       700
+weighted avg       0.49      0.70      0.58       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00        90
+         1.0       0.70      1.00      0.82       210
+
+    accuracy                           0.70       300
+   macro avg       0.35      0.50      0.41       300
+weighted avg       0.49      0.70      0.58       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+

@@ -1,0 +1,62 @@
+
+
+Result with 35 features: ['duration', 'credit_amount', 'installment_commitment', 'residence_since', 'age', 'existing_credits', 'job', 'num_dependents', 'credit_job_ratio', 'credit_age_ratio', 'monthly_burden', 'debt_burden', 'checking_status_0__X_200', 'checking_status__0', 'checking_status_no_checking', 'credit_history_all_paid', 'credit_history_critical_other_existing_credit', 'credit_history_no_credits_all_paid', 'purpose_education', 'purpose_new_car', 'purpose_radio_tv', 'purpose_used_car', 'savings_status_500__X_1000', 'savings_status__100', 'savings_status___1000', 'savings_status_no_known_savings', 'employment_4__X_7', 'employment__1', 'property_magnitude_no_known_property', 'property_magnitude_real_estate', 'other_payment_plans_bank', 'housing_for_free', 'housing_own', 'housing_rent', 'marital_status_div_dep_mar']
+========================= Best Parameters =========================
+{
+    "learning_rate": 0.012962814403127895,
+    "min_split_loss": 1.1731575308091826,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "max_delta_step": 10,
+    "subsample": 0.7057766838440844,
+    "colsample_bytree": 0.6757164742528512,
+    "lambda": 0.7138973434048799,
+    "n_estimators": 359,
+    "max_leaves": 0,
+    "max_bin": 243,
+    "rate_drop": 0.7391695388792063
+}
+========================= Whole Classification Report =========================
+{
+    "XGBOOST": {
+        "Accuracy Score": {
+            "train data": 0.8757142857142857,
+            "test data": 0.75
+        },
+        "Precision Score": {
+            "train data": 0.8656987295825771,
+            "test data": 0.7824267782426778
+        },
+        "Recall Score": {
+            "train data": 0.9734693877551021,
+            "test data": 0.8904761904761904
+        },
+        "F1 Score": {
+            "train data": 0.9164265129682997,
+            "test data": 0.8329621380846325
+        }
+    }
+}
+========================= Classification Report of Training =========================
+              precision    recall  f1-score   support
+
+         0.0       0.91      0.65      0.76       210
+         1.0       0.87      0.97      0.92       490
+
+    accuracy                           0.88       700
+   macro avg       0.89      0.81      0.84       700
+weighted avg       0.88      0.88      0.87       700
+
+========================= Classification Report of Testing =========================
+              precision    recall  f1-score   support
+
+         0.0       0.62      0.42      0.50        90
+         1.0       0.78      0.89      0.83       210
+
+    accuracy                           0.75       300
+   macro avg       0.70      0.66      0.67       300
+weighted avg       0.73      0.75      0.73       300
+
+========================================================================================================================================================================================================
+========================================================================================================================================================================================================
+

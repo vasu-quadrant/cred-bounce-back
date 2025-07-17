@@ -3,7 +3,7 @@
 /backend/notebooks
 /scripts/__pycache__
 /scripts/preprocess.py 
-model1.pkl
+/notebooks
 
 
 /front_end/node_modules
